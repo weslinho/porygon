@@ -3,7 +3,7 @@
     "version": "2.0.5",
     "description": "Um robô para o Discord do República Coisa de Nerd.",
     "main": "src/main.js",
-    "author": "weslinho",
+    "author": "wesleyweber",
     "dependencies": {
         "discord.js": "^14.13.0",
         "dotenv": "^8.6.0",
@@ -15,10 +15,5 @@
         "node-fetch": "^2.6.1",
         "path": "^0.12.7",
         "request": "^2.88.2"
-    },
-    "devDependencies": {
-        "eslint": "^8.57.0",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-import": "^2.29.1"
     }
 }

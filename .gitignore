@@ -1,0 +1,9 @@
+node_modules
+.env
+package-lock.json
+ 
+# Gerado pelo comando "stats"
+rank
+ 
+*.log
+ 

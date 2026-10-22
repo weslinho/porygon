@@ -19,7 +19,7 @@ module.exports = async (data, Client) => {
                 });
     }
 
-    const scamTest = await scamFinder(data.content);
+    const scamTest = await scamFinder(data.content, Client);
     if (scamTest)
         member
             .ban({
