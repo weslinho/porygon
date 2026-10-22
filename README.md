@@ -1,8 +1,8 @@
 # Porygon
 
-Bot de moderação e utilidades para Discord, feito em Node.js com [discord.js](https://discord.js.org) v14. Os textos, expressões de filtro e configurações ficam em um Firebase Realtime Database, então podem ser alterados sem mexer no código.
+Bot de moderação para uma comunidade de Discord, desenvolvido entre 2022 e 2024, feito em Node.js com [discord.js](https://discord.js.org). Os textos, expressões de filtro e configurações ficam em um Firebase Realtime Database, então podem ser alterados sem mexer no código.
 
-> **Projeto antigo.** Foi escrito em 2024 e é mantido sem grandes atualizações. Usa o SDK do Firebase na versão 8 (API antiga). Funciona assim, mas não é um exemplo de práticas atuais.
+> **Projeto antigo.** mantido sem grandes atualizações. Usa o SDK do Firebase na versão 8 (API antiga). Funciona assim, mas não é um exemplo de práticas atuais.
 
 ## Funcionalidades
 
