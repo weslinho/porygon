@@ -34,14 +34,14 @@ module.exports = class DiscordClient extends Client {
     }
 
     get guild() {
-        return this.guilds.cache.get("723727866164019232"); 
+        return process.env.GUILD_ID; 
     }
 
     get privateLogChannel() {
-        return this.channels.cache.get("880994376417943573");
+        return process.env.PRIVATE_LOG_CHANNEL_ID;
     }
 
     get modLogChannel() {
-        return this.channels.cache.get("1033863334631583785");
+        return process.env.MOD_LOG_CHANNEL_ID;
     }
 };
