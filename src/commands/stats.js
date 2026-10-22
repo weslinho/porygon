@@ -7,7 +7,7 @@ module.exports = {
         if (!Client.acess.includes(data.message.author.id)) return;
         const generalChat = data.message.arguments.length
             ? Client.channels.cache.get(data.message.arguments[0])
-            : Client.channels.cache.get("723727866713341955");
+            : Client.channels.cache.get(process.env.STATS_CHANNEL_ID);
         const statsCollection = new Collection();
         const perHourStats = new Object();
 
